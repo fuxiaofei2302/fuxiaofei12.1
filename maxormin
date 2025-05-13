@@ -1,0 +1,14 @@
+var max=function(x,y,z){
+  if(x>y&x>z){
+    return x;
+  }
+  else if(y>x&x>z){
+    return y;
+  }
+  else{
+    return z;
+  }
+}
+var max;
+max =max(11,1,111);
+console.log(max);
